@@ -27,6 +27,12 @@ pipeline {
             }
         }
 
+      stage('BUILD') {
+            steps {
+                sh 'mvn clean install package'
+            }
+        } 
+        
          stage('SONAR SCANNER') {
             environment {
             sonar_token = credentials('SONAR_TOKEN')
