@@ -35,8 +35,8 @@
     </style>
   </head>
   <body>
-    <h1> We provide online classes, Please find contact details in description box </h1>
-    <h2> Trainer Name: SUNNY GODIWAL </h2>
+    <h1>This is my first webdevops application </h1>
+    <h2> welcome </h2>
 
     <br>
     <br>
