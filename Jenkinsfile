@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      PATH = "$PATH:/opt/apache-maven-3.9.3/bin"
+      PATH = "$PATH:/opt/apache-maven-3.9.4/bin"
     }
     
     stages {
@@ -41,7 +41,7 @@ pipeline {
             steps {
                 sh 'mvn sonar:sonar -Dsonar.projectName=$JOB_NAME \
                     -Dsonar.projectKey=$JOB_NAME \
-                    -Dsonar.host.url=http://172.31.84.166:9000 \
+                    -Dsonar.host.url=http://192.168.33.15:9000 \
                     -Dsonar.token=$sonar_token'
             }
         } 
