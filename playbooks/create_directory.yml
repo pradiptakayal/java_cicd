@@ -1,7 +1,7 @@
 ---
 - name: CREATE DIRECTORY & COPY FILES
   hosts: all
-  remote_user: vagrant
+  remote_user: root
   tasks:
     - name: CREATE DOCKER DIRECTORY
       file:
