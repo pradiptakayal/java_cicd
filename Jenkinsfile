@@ -32,7 +32,7 @@ stage('CODE CHECKOUT') {
                 sh 'mvn clean install package'
             }
         }
-stage('SONAR SCANNER') {
+        stage('SONAR SCANNER') {
             environment {
             sonar_token = credentials('SONAR_TOKEN')
             }
