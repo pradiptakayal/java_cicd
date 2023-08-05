@@ -25,7 +25,9 @@ stage('CODE CHECKOUT') {
                    sed -i "s/IMAGE_NAME/$JOB_NAME:v1.$BUILD_ID/g" webapp/src/main/webapp/index.jsp
                    '''
             }
-        }stage('BUILD') {
+        }
+        
+        stage('BUILD') {
             steps {
                 sh 'mvn clean install package'
             }
