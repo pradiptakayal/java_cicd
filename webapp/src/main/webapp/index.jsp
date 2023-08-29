@@ -35,7 +35,7 @@
     </style>
   </head>
   <body>
-    <h1>This is my first webdevops application 2.0 test successful </h1>
+    <h1>This is my first dev app </h1>
     <h2> welcome </h2>
 
     <br>
