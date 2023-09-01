@@ -12,7 +12,11 @@ pipeline {
             }
         }
 
-     
+     stage('CODE CHECKOUT') {
+            steps {
+                git 'https://github.com/pradiptakayal/devops_real_time_project_1.git'
+            }
+        }
 
       
         
