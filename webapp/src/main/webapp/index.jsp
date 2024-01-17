@@ -1,835 +1,492 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Steller Landing page | Free Bootstrap 4.1 landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
 
-		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>CarVilla</title>
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">hello,I'm</h6>
+                <h6 class="title">James Smith</h6>
+                <p>UI/UX Designer</p>
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+                <div class="buttons pt-3">
+                    <button class="btn btn-primary rounded">HIRE ME</button>
+                    <button class="btn btn-dark rounded">DOWNLOAD CV</button>
+                </div>      
 
-        <!--linear icon css-->
-		<link rel="stylesheet" href="assets/css/linearicons.css">
+                <div class="socials mt-4">
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                </div>
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/man.svg" alt="">
+            </div>      
+        </div>  
 
-        <!--flaticon.css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <h2>124</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="widget-item">
+                <h2>456</h2>
+                <p>Project Completed</p>
+            </div>
+            <div class="widget-item">
+                <h2>789</h2>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/avatar.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">James Smith</h6>
+                    <p class="subtitle">UI/UX Designer</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum repellendus consequatur ullam voluptatum asperiores.</p>
+                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Service</h6>
+            <h6 class="section-title mb-4">What I Do</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-crown"></i>
+                            <h5>UI/UX Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Web Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>App Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>SEO</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
 
-    </head>
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Skills</h6>
+            <h6 class="section-title mb-4">Why Choose me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Photoshop</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Web Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">App Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">SEO</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Portfolio</h6>
+            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Testmonial Section -->
+    <section id="testmonial" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Testmonial</h6>
+            <h6 class="section-title mb-4">What People Say About Me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-1.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Emma Re</h1>
+                                <h1 class="subtitle">Graphic Designer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-2.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Michael Abra</h1>
+                                <h1 class="subtitle">Web Developer</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of testmonial section -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Blogs</h6>
+            <h6 class="section-title mb-4">Latest News</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Designe for Everyone</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Layouts</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap Framework</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hire me section -->
+    <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Hire Me For Your Project</h5>
+                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Hire Me!</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>      
+    <!-- End od Hire me section. -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="contact text-left">
+                <div class="form">
+                    <h6 class="subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p> 12345 Fake ST NoWhere AB Country</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(123) 456-7890</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>info@website.com</p>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>  
+        <div id="map">
+            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
+        </div>      
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
 	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-	
-		<!--welcome-hero start -->
-		<section id="home" class="welcome-hero">
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-			<!-- top-area Start -->
-			<div class="top-area">
-				<div class="header-area">
-					<!-- Start Navigation -->
-				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
 
-				        <div class="container">
-
-				            <!-- Start Header Navigation -->
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-				                    <i class="fa fa-bars"></i>
-				                </button>
-				                <a class="navbar-brand" href="index.html">carvilla<span></span></a>
-
-				            </div><!--/.navbar-header-->
-				            <!-- End Header Navigation -->
-
-				            <!-- Collect the nav links, forms, and other content for toggling -->
-				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="#service">service</a></li>
-				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
-				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
-				                    <li class="scroll"><a href="#brand">brands</a></li>
-				                    <li class="scroll"><a href="#contact">contact</a></li>
-				                </ul><!--/.nav -->
-				            </div><!-- /.navbar-collapse -->
-				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
-				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
-
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>get your desired car in resonable price</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. 
-					</p>
-					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="model-search-content">
-							<div class="row">
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select year</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">year</option><!-- /.option-->
-
-											  	<option value="2018">2018</option><!-- /.option-->
-
-											  	<option value="2017">2017</option><!-- /.option-->
-											  	<option value="2016">2016</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>body style</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">style</option><!-- /.option-->
-
-											  	<option value="sedan">sedan</option><!-- /.option-->
-
-											  	<option value="van">van</option><!-- /.option-->
-											  	<option value="roadster">roadster</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select make</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">make</option><!-- /.option-->
-
-											  	<option value="toyota">toyota</option><!-- /.option-->
-
-											  	<option value="holden">holden</option><!-- /.option-->
-											  	<option value="maecedes-benz">maecedes-benz.</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>car condition</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">condition</option><!-- /.option-->
-
-											  	<option value="something">something</option><!-- /.option-->
-
-											  	<option value="something">something</option><!-- /.option-->
-											  	<option value="something">something</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select model</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">model</option><!-- /.option-->
-
-											  	<option value="kia-rio">kia-rio</option><!-- /.option-->
-
-											  	<option value="mitsubishi">mitsubishi</option><!-- /.option-->
-											  	<option value="ford">ford</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>select price</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
-
-											  	<option value="default">price</option><!-- /.option-->
-
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
-
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-2 col-sm-12">
-									<div class="single-model-search text-center">
-										<button class="welcome-btn model-search-btn" onclick="window.location.href='#'">
-											search
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
-
-		<!--service start -->
-		<section id="service" class="service">
-			<div class="container">
-				<div class="service-content">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car"></i>
-								</div>
-								<h2><a href="#">largest dealership <span> of</span> car</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car-repair"></i>
-								</div>
-								<h2><a href="#">unlimited repair warrenty</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car-1"></i>
-								</div>
-								<h2><a href="#">insurence support</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!--/.container-->
-
-		</section><!--/.service-->
-		<!--service end-->
-
-		<!--new-cars start -->
-		<section id="new-cars" class="new-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> latest cars</p>
-					<h2>newest cars</h2>
-				</div><!--/.section-header-->
-				<div class="new-cars-content">
-					<div class="owl-carousel owl-theme" id="new-cars-carousel">
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm1.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm2.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">BMW series-3 wagon</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->	
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm3.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">ferrari 488 superfast</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-					</div><!--/#new-cars-carousel-->
-				</div><!--/.new-cars-content-->
-			</div><!--/.container-->
-
-		</section><!--/.new-cars-->
-		<!--new-cars end -->
-
-		<!--featured-cars start -->
-		<section id="featured-cars" class="featured-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> featured cars</p>
-					<h2>featured cars</h2>
-				</div><!--/.section-header-->
-				<div class="featured-cars-content">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc1.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">BMW 6-series gran coupe</a></h2>
-									<h3>$89,395</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc2.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">chevrolet camaro <span>wmv20</span></a></h2>
-									<h3>$66,575</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc3.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">lamborghini <span>v520</span></a></h2>
-									<h3>$125,250</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc4.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">audi <span> a3</span> sedan</a></h2>
-									<h3>$95,500</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc4.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">infiniti <span>z5</span></a></h2>
-									<h3>$36,850</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc5.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">porsche <span>718</span> cayman</a></h2>
-									<h3>$48,500</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc7.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#"><span>bmw 8-</span>series coupe</a></h2>
-									<h3>$56,000</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc8.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">BMW <span> x</span>series-6</a></h2>
-									<h3>$75,800</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!--/.container-->
-
-		</section><!--/.featured-cars-->
-		<!--featured-cars end -->
-
-		<!-- clients-say strat -->
-		<section id="clients-say"  class="clients-say">
-			<div class="container">
-				<div class="section-header">
-					<h2>what our clients say</h2>
-				</div><!--/.section-header-->
-				<div class="row">
-					<div class="owl-carousel testimonial-carousel">
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c1.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">tomas lili</a></h2>
-										<h4>new york</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c2.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">romi rain</a></h2>
-										<h4>london</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c3.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">john doe</a></h2>
-										<h4>washington</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-					</div><!--/.testimonial-carousel-->
-				</div><!--/.row-->
-			</div><!--/.container-->
-
-		</section><!--/.clients-say-->	
-		<!-- clients-say end -->
-
-		<!--brand strat -->
-		<section id="brand"  class="brand">
-			<div class="container">
-				<div class="brand-area">
-					<div class="owl-carousel owl-theme brand-item">
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br1.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br2.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br3.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br4.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br5.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br6.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-					</div><!--/.owl-carousel-->
-				</div><!--/.clients-area-->
-
-			</div><!--/.container-->
-
-		</section><!--/brand-->	
-		<!--brand end -->
-
-		<!--blog start -->
-		<section id="blog" class="blog"></section><!--/.blog-->
-		<!--blog end -->
-
-		<!--contact start-->
-		<footer id="contact"  class="contact">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<div class="footer-logo">
-									<a href="index.html">carvilla</a>
-								</div>
-								<p>
-									Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
-								</p>
-								<div class="footer-contact">
-									<p>info@themesine.com</p>
-									<p>+1 (885) 2563154554</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>about devloon</h2>
-								<ul>
-									<li><a href="#">about us</a></li>
-									<li><a href="#">career</a></li>
-									<li><a href="#">terms <span> of service</span></a></li>
-									<li><a href="#">privacy policy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-12">
-							<div class="single-footer-widget">
-								<h2>top brands</h2>
-								<div class="row">
-									<div class="col-md-7 col-xs-6">
-										<ul>
-											<li><a href="#">BMW</a></li>
-											<li><a href="#">lamborghini</a></li>
-											<li><a href="#">camaro</a></li>
-											<li><a href="#">audi</a></li>
-											<li><a href="#">infiniti</a></li>
-											<li><a href="#">nissan</a></li>
-										</ul>
-									</div>
-									<div class="col-md-5 col-xs-6">
-										<ul>
-											<li><a href="#">ferrari</a></li>
-											<li><a href="#">porsche</a></li>
-											<li><a href="#">land rover</a></li>
-											<li><a href="#">aston martin</a></li>
-											<li><a href="#">mersedes</a></li>
-											<li><a href="#">opel</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>news letter</h2>
-								<div class="footer-newsletter">
-									<p>
-										Subscribe to get latest news  update and informations
-									</p>
-								</div>
-								<div class="hm-foot-email">
-									<div class="foot-email-box">
-										<input type="text" class="form-control" placeholder="Add Email">
-									</div><!--/.foot-email-box-->
-									<div class="foot-email-subscribe">
-										<span><i class="fa fa-arrow-right"></i></span>
-									</div><!--/.foot-email-icon-->
-								</div><!--/.hm-foot-email-->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="row">
-						<div class="col-sm-6">
-							<p>
-								&copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
-							</p><!--/p-->
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-pinterest-p"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>	
-							</div>
-						</div>
-					</div>
-				</div><!--/.footer-copyright-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.contact-->
-		<!--contact end-->
-
-
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+</body>
 </html>
