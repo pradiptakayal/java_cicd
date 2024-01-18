@@ -150,7 +150,7 @@
 				<div class="welcome-hero-txt">
 					<h2>best place to find and explore <br> that all you need </h2>
 					<p>
-						Find Best Place, Restaurant, Hotel, Real State and many more think in just One click 
+						TEST
 					</p>
 				</div>
 				<div class="welcome-hero-serch-box">
