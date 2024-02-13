@@ -150,7 +150,7 @@
 				<div class="welcome-hero-txt">
 					<h2>best place to find and explore <br> that all you need </h2>
 					<p>
-						TEST
+						WELCOME
 					</p>
 				</div>
 				<div class="welcome-hero-serch-box">
