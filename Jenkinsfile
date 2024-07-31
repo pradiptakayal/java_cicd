@@ -72,7 +72,15 @@ stage('PUSH IMAGE ON DOCKERHUB') {
             }            
         } 
 
-        stage('Install Prometheus and Grafana') {
+        stage('Install Helm') {
+            steps {
+                sh '''
+                    curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+                '''
+            }
+        }
+
+       stage('Install Prometheus and Grafana') {
             steps {
                 sh '''
                     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
@@ -86,20 +94,14 @@ stage('PUSH IMAGE ON DOCKERHUB') {
 
         stage('Configure Prometheus') {
             steps {
-                sh '''
-                    # Apply your Prometheus scrape config
-                    kubectl apply -f playbooks/prometheus-scrape-config.yml
-                '''
+                sh 'kubectl apply -f playbooks/prometheus-scrape-config.yml'
             }
         }
 
         stage('Configure Grafana') {
             steps {
-                sh '''
-                    # Add data source and dashboards
-                    kubectl apply -f playbooks/grafana-datasource-config.yml
-                    kubectl apply -f playbooks/grafana-dashboard-config.yml
-                '''
+                sh 'kubectl apply -f playbooks/grafana-datasource-config.yml'
+                sh 'kubectl apply -f playbooks/grafana-dashboard-config.yml'
             }
         }
 
