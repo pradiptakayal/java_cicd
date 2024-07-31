@@ -73,48 +73,6 @@ stage('PUSH IMAGE ON DOCKERHUB') {
             }            
         } 
 
-        stage('Install Helm') {
-            steps {
-                sh '''
-                    curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
-                '''
-            }
-        }
-
-       stage('Install Prometheus and Grafana') {
-            steps {
-                sh '''
-                    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
-                    helm repo add grafana https://grafana.github.io/helm-charts
-                    helm repo update
-                    helm install prometheus prometheus-community/kube-prometheus-stack
-                    helm install grafana grafana/grafana
-                '''
-            }
-        }
-
-        stage('Configure Prometheus') {
-            steps {
-                sh 'kubectl apply -f playbooks/prometheus-scrape-config.yml'
-            }
-        }
-
-        stage('Configure Grafana') {
-            steps {
-                sh 'kubectl apply -f playbooks/grafana-datasource-config.yml'
-                sh 'kubectl apply -f playbooks/grafana-dashboard-config.yml'
-            }
-        }
-
-        stage('Verify Monitoring Setup') {
-            steps {
-                script {
-                    def prometheusUrl = sh(script: "kubectl get svc prometheus-kube-prometheus-prometheus -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'", returnStdout: true).trim()
-                    def grafanaUrl = sh(script: "kubectl get svc grafana -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'", returnStdout: true).trim()
-                    echo "Prometheus is accessible at: http://$prometheusUrl"
-                    echo "Grafana is accessible at: http://$grafanaUrl"
-                }
-            }
-        }
+        
     }
 }
