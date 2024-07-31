@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    options {
-        restartableFromStage()
-    }
     environment {
       PATH = "$PATH:/opt/apache-maven-3.8.8/bin"
     }
